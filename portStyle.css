@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #081b29;
+}
+
+header{
+    color: aqua;
+    position: static;
+    height: 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: black;
+}
+header h1{
+    font-weight: 600;
+    font-size: 36px;
+    font-weight: 600;
+}
+ .head a{
+    font-size: 30px;
+    color:aqua;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    font-weight: 500;
+}
+.head a:hover{
+    color: brown;
+}
+
+.objective{
+    margin-top: 200px;
+    margin-left: 9%;
+    align-items: center;
+    width: 60%;
+    font-size: 36px;
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#home h3{
+    color: rgb(196, 63, 63);
+    font-family:monospace;
+}
+.profile{
+margin-top: -100%;
+   margin-left: 100%;
+   margin-right: 0px;
+   border-radius: 50%;
+}
+.fa-brands{
+    margin-left: 50px;
+}
+.button{
+    font-size: 36px;
+    margin-top: 100px;
+}
+.button .fa-solid:hover,.fa-brands:hover {
+        color: aqua;
+}
+#skill{
+    
+    background: url(img/download.jpg);
+    background-size: 100%;
+    height: 1000px;
+
+}
+
+#skill h1{
+    color: rgb(27, 145, 181);
+    font-size: 4rem;
+    margin-left: 5%;
+}
+
+.row1{
+    display: flex;
+   /* justify-content: space-between;*/
+}
+
+#skill .img1{
+    margin-left: 16%;
+    margin-top: 80px;
+
+}
+#skill .img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover{
+    transform: scale(1.8);
+}
+.img3{
+  margin-top: 80px; 
+  margin-left: 22%; 
+}
+#skill .img2{
+    margin-top: 80px;
+    margin-left: 22%;
+}
+.row2{
+    display: flex;
+    
+}
+#skill .img4{
+    margin-left: 30%;
+    margin-top: 80px;
+}
+#skill .img5{
+    margin-left: 20%;
+    margin-top: 80px;
+}
+#project{
+    background: url(img/bg3.jpg);
+    height: 1000px;
+}
+#project h1{
+    color: rgb(195, 221, 94);
+    font-size: 4rem;
+    margin-left: 5%;
+}
+#project .project1{
+    margin-top: 100px;
+    color: rgb(238, 235, 243);
+    font-size: 36px;
+    margin-left: 15%;
+    text-align: center;
+    border: .5px solid red;
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    padding: 15px;
+}
+#project .project1 .tech1{
+    font-size: 30px;
+    color: rgba(215, 20, 153, 0.902);;
+    text-decoration: none;
+    display: flex;
+    justify-content:space-evenly;
+}
+#project .project1 .tech1:hover{
+    color: orangered;
+}
+.btn{
+    padding: 15px;
+    font-size: 36px;
+    background-color: rgb(237, 16, 16);
+}
+#project p{
+    margin-top: 30px;
+    color: chartreuse;
+}
+#project .project2{
+    margin-top: -500px;
+    float: right;
+    margin-right: 18%;
+    color: rgb(238, 235, 243);
+    font-size: 36px;
+    text-align: center;
+    border: .5px solid red;
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    padding: 15px;
+}
+#project .project2 .tech2{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgba(215, 20, 153, 0.902);
+}
+#contact{
+    height:1100px ;
+    background-image: url(/img/Free\ Vector\ _\ Futuristic\ background\ design.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    margin-left: 10px;
+
+}
+#contact h2{
+    margin-left: 5%;
+    font-size: 48px;
+    color: firebrick;
+}
+#contact .form{
+    height: 1000px;
+}
+#contact .feild{
+   
+    height: 300px;
+    width: 600px;
+    margin-top: 150px;
+    margin-left: 35%;
+    color: rgb(123, 23, 104);
+    font-weight: 100;
+    text-align:justify;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(217, 210, 210);
+
+}
+.sendbtn{
+    margin-top: 5px;
+    border-radius: 6%;
+    margin-left:47% ;
+    font-size: 30px;
+    padding: 10px;
+    color: blue;
+    background-color: rgb(240, 241, 244);
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sendbtn:hover{
+    background-color: rgb(222, 22, 22);
+}
+.cont_det{
+    font-size: 36px;
+    margin-left:  42%;
+    margin-right: 44%;
+    color: rgb(222, 22, 22);
+    border: 1px dashed orange;
+    margin-top: -350px;
+    padding: 15px;
+}
+
+.con_txt{
+    margin-left: 15px;
+    margin-top: 20px;
+    color: brown;
+    color: chartreuse;
+}
+
+
