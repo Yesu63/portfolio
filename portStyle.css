@@ -70,7 +70,7 @@ margin-top: -100%;
 }
 #skill{
     
-    background: url(img/download.jpg);
+    background: url(img/skill_bg.jpg);
     background-size: 100%;
     height: 1000px;
 
@@ -116,7 +116,7 @@ margin-top: -100%;
     margin-top: 80px;
 }
 #project{
-    background: url(img/bg3.jpg);
+    background: url(img/project_bg.jpg);
     height: 1000px;
 }
 #project h1{
@@ -175,7 +175,7 @@ margin-top: -100%;
 }
 #contact{
     height:1100px ;
-    background-image: url(/img/Free\ Vector\ _\ Futuristic\ background\ design.jpg);
+    background-image: url(/img/contact_bg.jpg);
     background-repeat: no-repeat;
     background-size:100%;
     margin-left: 10px;
