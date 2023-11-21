@@ -69,13 +69,16 @@ margin-top: -100%;
         color: aqua;
 }
 .resume{
-    font-size: 30px;
-    color: rgb(50, 205, 112);
-    border: 2px double rgb(200, 255, 0);
-    background-color: white;
+    font-size: 28px;
+    color: rgb(200, 255, 0);
+    border: 3px double rgb(200, 255, 0);
+    background-color:  #081b29;
     text-decoration: none;
     padding: 15px;
     border-radius: 5%;
+}
+.resume:hover{
+    background-color:rgb(196, 63, 63);
 }
 #skill{
     
