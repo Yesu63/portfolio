@@ -68,6 +68,15 @@ margin-top: -100%;
 .button .fa-solid:hover,.fa-brands:hover {
         color: aqua;
 }
+.resume{
+    font-size: 30px;
+    color: rgb(50, 205, 112);
+    border: 2px double rgb(200, 255, 0);
+    background-color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5%;
+}
 #skill{
     
     background: url(img/skill_bg.jpg);
